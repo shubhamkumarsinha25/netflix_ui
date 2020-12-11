@@ -12,7 +12,7 @@ Widget sliderItem(String img, String moviename) {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10.0),
             image: DecorationImage(
-              image: NetworkImage(img),
+              image: AssetImage(img),
               fit: BoxFit.cover,
             ),
           ),

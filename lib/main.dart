@@ -23,10 +23,10 @@ class NetflixApp extends StatefulWidget {
 
 class _NetflixAppState extends State<NetflixApp> {
   List<String> movieCarousselUrl = [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbSLCEqIGEAzHkwd7SWUpIuJ4knEYcBx-wxg&usqp=CAU",
-    "https://uhdwallpapers.org/uploads/converted/19/09/21/joker-4k-poster-1600x900_666674-mm-90.jpg",
-    "https://financerewind.com/wp-content/uploads/2020/07/cursed-season-2-netflix-renewal-status-1200x675.png",
-    "https://miro.medium.com/max/2800/0*6dysw-Riawp4PO6u",
+    'images/pic1.jpg',
+    'images/pic2.jpg',
+    'images/pic3.png',
+    'images/pic4.jpg',
   ];
   List<String> movieTitle = [
     "Star Wars the Jedi Return",
@@ -35,11 +35,11 @@ class _NetflixAppState extends State<NetflixApp> {
     "Kimetsu no yaiba : Mugen Train"
   ];
   List<String> movieImageUrl = [
-    "https://lumiere-a.akamaihd.net/v1/images/p_mulan2020_20204_b005decc.jpeg?region=0,0,540,810",
-    "https://upload.wikimedia.org/wikipedia/en/2/21/Kimetsu_no_Yaiba_Mugen_Ressha_Hen_Poster.jpg",
-    "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSa4t8Yz7dxTAWBZtbNhmpEYepiV_Yw8KMRf69NyjtPqbPm-LPr",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROKKn9ftbhxcRQf0NSSW4YfXPex6eyY95FrhEfU7OoTiDYRpky",
-    "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTkZO-tgLmMFndFVdrFSetlssgOYf4M_i1kSfZ62vJRuBCtShRc",
+    'images/pic5.jpeg',
+    'images/pic6.jpg',
+    'images/pic7.jpg',
+    'images/pic8.jpg',
+    'images/pic9.jpg',
   ];
 
   @override
@@ -59,6 +59,7 @@ class _NetflixAppState extends State<NetflixApp> {
         ),
         actions: [
           IconButton(
+            onPressed: (){},
             icon: Icon(
               Icons.search,
               color: Colors.white,

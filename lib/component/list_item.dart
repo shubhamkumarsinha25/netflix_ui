@@ -15,7 +15,7 @@ Widget listItem(String img,String moviename)
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20.0),
             image: DecorationImage(
-              image: NetworkImage(img),
+              image: AssetImage(img),
               fit: BoxFit.cover,
             )
           ),
